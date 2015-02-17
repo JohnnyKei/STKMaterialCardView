@@ -26,6 +26,14 @@
     return self;
 }
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        [self initializeShadows];
+    }
+    return self;
+}
+
 - (void)initializeShadows{
     // initalize 2 shadow
     _topShadow = [CALayer layer];
@@ -108,6 +116,14 @@
         _bottomShadow.shadowRadius = 6.0;
         _bottomShadow.shadowOffset = (CGSize){0,1};
         
+    }else{
+        _topShadow.shadowOpacity = 0.30;
+        _topShadow.shadowRadius = 19.0;
+        _topShadow.shadowOffset = (CGSize){0,19};
+        
+        _bottomShadow.shadowOpacity = 0.22;
+        _bottomShadow.shadowRadius = 6.0;
+        _bottomShadow.shadowOffset = (CGSize){0,1};
     }
     
     
