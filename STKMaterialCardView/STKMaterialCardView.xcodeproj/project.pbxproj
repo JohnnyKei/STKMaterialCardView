@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5C15941A939F97002F0F5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5C15931A939F97002F0F5E /* main.m */; };
+		AA5C15971A939F97002F0F5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5C15961A939F97002F0F5E /* AppDelegate.m */; };
+		AA5C159A1A939F97002F0F5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5C15991A939F97002F0F5E /* ViewController.m */; };
+		AA5C159D1A939F97002F0F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5C159B1A939F97002F0F5E /* Main.storyboard */; };
+		AA5C159F1A939F97002F0F5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5C159E1A939F97002F0F5E /* Images.xcassets */; };
+		AA5C15A21A939F97002F0F5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5C15A01A939F97002F0F5E /* LaunchScreen.xib */; };
+		AA5C15AE1A939F97002F0F5E /* STKMaterialCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5C15AD1A939F97002F0F5E /* STKMaterialCardViewTests.m */; };
+		AA5C15B91A93A19F002F0F5E /* STKMaterialCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5C15B81A93A19F002F0F5E /* STKMaterialCardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5C15A81A939F97002F0F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5C15861A939F97002F0F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5C158D1A939F97002F0F5E;
+			remoteInfo = STKMaterialCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA5C158E1A939F97002F0F5E /* STKMaterialCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STKMaterialCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5C15921A939F97002F0F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5C15931A939F97002F0F5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5C15951A939F97002F0F5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5C15961A939F97002F0F5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5C15981A939F97002F0F5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA5C15991A939F97002F0F5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA5C159C1A939F97002F0F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA5C159E1A939F97002F0F5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA5C15A11A939F97002F0F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA5C15A71A939F97002F0F5E /* STKMaterialCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STKMaterialCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5C15AC1A939F97002F0F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5C15AD1A939F97002F0F5E /* STKMaterialCardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STKMaterialCardViewTests.m; sourceTree = "<group>"; };
+		AA5C15B71A93A19F002F0F5E /* STKMaterialCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKMaterialCardView.h; sourceTree = "<group>"; };
+		AA5C15B81A93A19F002F0F5E /* STKMaterialCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKMaterialCardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5C158B1A939F97002F0F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5C15A41A939F97002F0F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5C15851A939F97002F0F5E = {
+			isa = PBXGroup;
+			children = (
+				AA5C15901A939F97002F0F5E /* STKMaterialCardView */,
+				AA5C15AA1A939F97002F0F5E /* STKMaterialCardViewTests */,
+				AA5C158F1A939F97002F0F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5C158F1A939F97002F0F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C158E1A939F97002F0F5E /* STKMaterialCardView.app */,
+				AA5C15A71A939F97002F0F5E /* STKMaterialCardViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5C15901A939F97002F0F5E /* STKMaterialCardView */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C15951A939F97002F0F5E /* AppDelegate.h */,
+				AA5C15961A939F97002F0F5E /* AppDelegate.m */,
+				AA5C15981A939F97002F0F5E /* ViewController.h */,
+				AA5C15991A939F97002F0F5E /* ViewController.m */,
+				AA5C15B71A93A19F002F0F5E /* STKMaterialCardView.h */,
+				AA5C15B81A93A19F002F0F5E /* STKMaterialCardView.m */,
+				AA5C159B1A939F97002F0F5E /* Main.storyboard */,
+				AA5C159E1A939F97002F0F5E /* Images.xcassets */,
+				AA5C15A01A939F97002F0F5E /* LaunchScreen.xib */,
+				AA5C15911A939F97002F0F5E /* Supporting Files */,
+			);
+			path = STKMaterialCardView;
+			sourceTree = "<group>";
+		};
+		AA5C15911A939F97002F0F5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C15921A939F97002F0F5E /* Info.plist */,
+				AA5C15931A939F97002F0F5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5C15AA1A939F97002F0F5E /* STKMaterialCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C15AD1A939F97002F0F5E /* STKMaterialCardViewTests.m */,
+				AA5C15AB1A939F97002F0F5E /* Supporting Files */,
+			);
+			path = STKMaterialCardViewTests;
+			sourceTree = "<group>";
+		};
+		AA5C15AB1A939F97002F0F5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C15AC1A939F97002F0F5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5C158D1A939F97002F0F5E /* STKMaterialCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5C15B11A939F97002F0F5E /* Build configuration list for PBXNativeTarget "STKMaterialCardView" */;
+			buildPhases = (
+				AA5C158A1A939F97002F0F5E /* Sources */,
+				AA5C158B1A939F97002F0F5E /* Frameworks */,
+				AA5C158C1A939F97002F0F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STKMaterialCardView;
+			productName = STKMaterialCardView;
+			productReference = AA5C158E1A939F97002F0F5E /* STKMaterialCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5C15A61A939F97002F0F5E /* STKMaterialCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5C15B41A939F97002F0F5E /* Build configuration list for PBXNativeTarget "STKMaterialCardViewTests" */;
+			buildPhases = (
+				AA5C15A31A939F97002F0F5E /* Sources */,
+				AA5C15A41A939F97002F0F5E /* Frameworks */,
+				AA5C15A51A939F97002F0F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5C15A91A939F97002F0F5E /* PBXTargetDependency */,
+			);
+			name = STKMaterialCardViewTests;
+			productName = STKMaterialCardViewTests;
+			productReference = AA5C15A71A939F97002F0F5E /* STKMaterialCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5C15861A939F97002F0F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kei;
+				TargetAttributes = {
+					AA5C158D1A939F97002F0F5E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AA5C15A61A939F97002F0F5E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AA5C158D1A939F97002F0F5E;
+					};
+				};
+			};
+			buildConfigurationList = AA5C15891A939F97002F0F5E /* Build configuration list for PBXProject "STKMaterialCardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5C15851A939F97002F0F5E;
+			productRefGroup = AA5C158F1A939F97002F0F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5C158D1A939F97002F0F5E /* STKMaterialCardView */,
+				AA5C15A61A939F97002F0F5E /* STKMaterialCardViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5C158C1A939F97002F0F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5C159D1A939F97002F0F5E /* Main.storyboard in Resources */,
+				AA5C15A21A939F97002F0F5E /* LaunchScreen.xib in Resources */,
+				AA5C159F1A939F97002F0F5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5C15A51A939F97002F0F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5C158A1A939F97002F0F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5C159A1A939F97002F0F5E /* ViewController.m in Sources */,
+				AA5C15971A939F97002F0F5E /* AppDelegate.m in Sources */,
+				AA5C15B91A93A19F002F0F5E /* STKMaterialCardView.m in Sources */,
+				AA5C15941A939F97002F0F5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5C15A31A939F97002F0F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5C15AE1A939F97002F0F5E /* STKMaterialCardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5C15A91A939F97002F0F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5C158D1A939F97002F0F5E /* STKMaterialCardView */;
+			targetProxy = AA5C15A81A939F97002F0F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5C159B1A939F97002F0F5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5C159C1A939F97002F0F5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA5C15A01A939F97002F0F5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5C15A11A939F97002F0F5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5C15AF1A939F97002F0F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA5C15B01A939F97002F0F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5C15B21A939F97002F0F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STKMaterialCardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5C15B31A939F97002F0F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STKMaterialCardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA5C15B51A939F97002F0F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = STKMaterialCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STKMaterialCardView.app/STKMaterialCardView";
+			};
+			name = Debug;
+		};
+		AA5C15B61A939F97002F0F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = STKMaterialCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STKMaterialCardView.app/STKMaterialCardView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5C15891A939F97002F0F5E /* Build configuration list for PBXProject "STKMaterialCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5C15AF1A939F97002F0F5E /* Debug */,
+				AA5C15B01A939F97002F0F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5C15B11A939F97002F0F5E /* Build configuration list for PBXNativeTarget "STKMaterialCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5C15B21A939F97002F0F5E /* Debug */,
+				AA5C15B31A939F97002F0F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA5C15B41A939F97002F0F5E /* Build configuration list for PBXNativeTarget "STKMaterialCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5C15B51A939F97002F0F5E /* Debug */,
+				AA5C15B61A939F97002F0F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5C15861A939F97002F0F5E /* Project object */;
+}
