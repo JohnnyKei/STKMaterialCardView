@@ -25,4 +25,9 @@ Use like this
 
 
 
+![Image](https://github.com/Ka0sTie/STKMaterialCardView/blob/master/sample.gif)
+
+
+
+
 
