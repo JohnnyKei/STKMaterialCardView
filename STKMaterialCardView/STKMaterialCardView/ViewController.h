@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class STKMaterialCardView;
+
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak)IBOutlet STKMaterialCardView *materialCardView;
 
 @end
 

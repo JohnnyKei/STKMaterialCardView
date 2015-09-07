@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     
-    _cardView = [[STKMaterialCardView alloc]initWithFrame:(CGRect){50,50,200,200}];
+    _cardView = [[STKMaterialCardView alloc]initWithFrame:(CGRect){250,250,50,50}];
     _cardView.zDepth = 1.0;
     [self.view addSubview:_cardView];
     
@@ -42,6 +42,8 @@
 
 - (void)changeZDepth:(UIButton *)sender{
     _cardView.zDepth = (MaterialZDepth)sender.tag;
+    
+    _materialCardView.zDepth = (MaterialZDepth)sender.tag;
 }
 
 - (void)didReceiveMemoryWarning {

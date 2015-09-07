@@ -18,6 +18,12 @@
 
 @implementation STKMaterialCardView
 
+
+- (void)awakeFromNib{
+    [super awakeFromNib];
+    [self initializeShadows];
+}
+
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
